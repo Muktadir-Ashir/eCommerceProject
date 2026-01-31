@@ -1,0 +1,41 @@
+# ────────────────────────────────────────
+# Node.js / npm / yarn / pnpm
+# ────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# package-lock.json    # ← optional: ignore if you prefer yarn/pnpm over npm
+# yarn.lock            # ← optional: ignore if you use npm
+
+# Environment / secrets (VERY IMPORTANT!)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and temporary files
+logs
+*.log
+.DS_Store            # MacOS junk
+Thumbs.db            # Windows junk
+
+# Build / dist folders (if you ever build/transpile backend)
+dist/
+build/
+
+# Editor / IDE folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing / coverage (if you add tests later)
+coverage/
+.nyc_output/
